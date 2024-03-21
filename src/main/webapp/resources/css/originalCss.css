@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+    font-size: 16px;
+}
+.a-text{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.member_input{
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    width: 200px;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 10px;
+}
+
+.member_input:hover{
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    border-bottom: 1px solid #076e43;
+}
+
+.input{
+    width: 200px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.form-title{
+    font-family: 'EF_jejudoldam';
+    font-size: 32px;
+}
+.submit-green{
+    background-color: #076e43;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 5px;
+}
+
+.submit-red{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 5px;
+}
+
+.background-white{
+    background-color: white;
+    color: #076e43;
+    text-decoration: none;
+}
+.background-lightgreen{
+    background-color: #649d66;
+    color: white;
+}
+.background-verylightgreen{
+	background-color: #cfeed0;
+	color: black;
+}
+.background-yellow{
+    background-color: #f3c300;
+    color: white;
+    text-decoration: none;
+}
+.background-darkgreen{
+    background-color: rgb(3, 48, 29);
+    color: white;
+}
+
+.background-green{
+    background-color: #076e43;
+    color: white;
+}
+
+.button{
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.color-yellow{
+    color: #feed30;
+}
+
+.color-black{
+    color: black;
+}
+
+.hr-green{
+    height: 3px;
+    background-color: #076e43;
+    border: #076e43 1px solid;
+}
+.font{
+    font-family: 'EF_jejudoldam';
+}
+
+.text-justify{
+    text-align: justify;
+}
+div.flex-4{
+    margin: 0 auto;
+}
+div.flex-4 > div{
+    width: 24%;
+    margin-right: 1%;
+}
+
+div.flex-4 > div:nth-of-type(4n){
+    margin: 0;
+}
+
+div.flex-3{
+    margin: 0 auto;
+}
+div.flex-3 > div{
+	background-color: white !important;
+    width: 32% !important;
+    margin-right: 1% !important;
+}
+
+div.flex-3 > div:nth-of-type(3n){
+    margin: 0;
+}
+
+.w-32{
+	width: 32%;
+}
+
+.circle-green{
+    border-radius: 50%;
+    background-color: white;
+    color:#076e43;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+.label-w10{
+    font-size: 0;
+}
+.label-w10 label{
+    font-size: 1rem;
+    width: 10%;
+    text-align: center;
+    margin: 0;
+}
+.label-w10 label:checked{
+    background-color: #076e43;
+}
+
+.margin-center{
+    margin: 0 auto;
+}
+
+.hover-gray:hover{
+    box-shadow: 1px 2px 11px rgba(0,0,0,.3);
+}
+
+.border-right{
+    border-right: 1px solid lightgray;
+}
+
+.div-center{
+    margin: 0 auto;
+}
+
+.star_rating {
+  width: 100%; 
+  box-sizing: border-box; 
+  display: inline-flex; 
+  float: left;
+  flex-direction: row; 
+  justify-content: flex-start;
+}
+.star_rating .star {
+  width: 25px; 
+  height: 25px;
+  margin: 0 !important; 
+  display: inline-block; 
+  background: url('https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FE2bww%2FbtsviSSBz4Q%2F5UYnwSWgTlFt6CEFZ1L3Q0%2Fimg.png') no-repeat; 
+  background-size: 100%; 
+  box-sizing: border-box; 
+}
+.star_rating .star.on {
+  margin: 0 !important;
+  border: none;
+  width: 25px; 
+  height: 25px;
+  display: inline-block; 
+  background: url('https://blog.kakaocdn.net/dn/b2d6gV/btsvbDoal87/XH5b17uLeEJcBP3RV3FyDk/img.png') no-repeat;
+  background-size: 100%; 
+  box-sizing: border-box; 
+}
+
+.star_box {
+  width: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 15px 0;
+  background: #F3F4F8;
+  border: 0;
+  border-radius: 10px;
+  height: 200px !important;
+  resize: none;
+  padding: 15px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.btn02 {
+  display:block;
+  width: 100%;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+  max-height: 50px;
+  padding: 15px 0;
+  font-size: 1.1em;
+  text-align: center;
+  background:#076e43;
+  color: #f3c300;
+}
+
+#hiddenDiv{
+	display: none;
+	background-color: lightblue;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+
+
+
+
+/*▼▼▼회원정보 예약정보▼▼▼*/
+.tap_bar
+{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.w-btn-outline {
+    
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-green2-outline {
+    border: 3px solid #076e43;
+    color: black;
+}
+
+.w-btn-green2-outline:hover {
+    background-color: #076e43;
+    color: white;
+}
+
+.mypage-select
+{
+	border: 3px solid #076e43;
+	background-color: #076e43; 
+	color: white;
+}
+.w-btn-green2-outline2 {
+    border: 3px solid rgb(3, 48, 29);
+    color: black;
+}
+
+.w-btn-green2-outline2:hover {
+    background-color: rgb(3, 48, 29);
+    color: white;
+}
+
+.mypage-select2
+{
+	border: 3px solid rgb(3, 48, 29);
+	background-color: rgb(3, 48, 29); 
+	color: white;
+}
+
+.width114
+{
+	width:114px
+}
+/*▲▲▲회원정보 예약정보▲▲▲*/
+
+
+
+/*▼▼▼숙소상세보기▼▼▼*/
+.w-btn-outline1 {
+    
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn-gray-outline {
+    border: 3px solid gray;
+    color: black;
+}
+
+.w-btn-gray-outline:hover {
+    background-color: gray;
+    color: white;
+}
+
+.w-btn-yellow-outline {
+    border: 3px solid #FFB400;
+    color: black;
+}
+
+.w-btn-yellow-outline:hover {
+    background-color: #FFB400;
+    color: white;
+}
+
+.w-btn-blue-outline {
+    border: 3px solid #6495ED;
+    color: black;
+    background-color: white;
+}
+
+.w-btn-blue-outline:hover {
+    background-color: #6495ED;
+    color: white;
+}
+
+/*▲▲▲숙소상세보기▲▲▲*/
+
+.flex-center
+{
+	display: flex;
+	justify-content: center;
+}
+
+.flex-around
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-between
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex
+{
+	display: flex;
+	align-items: center;
+}
+
+#section1
+{
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/sample/fetch-4957501_1280.jpg') center center / cover no-repeat;   	    
+}
+
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.home1 h1
+{
+  	font-size: 5rem;
+  	  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.home1{
+	width: 55%;
+	writing-mode: horizontal-tb;
+}
+
+.homeTextDiv{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	transform: translateY(-50%);
+	width: 50%;
+	text-align: left;
+	color: #ffffff;
+	  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*▼▼▼추가하기▼▼▼*/
+.pl{
+    width: 100px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.pl:focus{
+   color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.myButton {
+	background-color:#649D66;
+	border-radius:5px;
+	border:1px solid #076e43;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	width:100px;
+	height:38px;
+	margin: 10px;
+	
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#076e43;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*▲▲▲추가하기▲▲▲*/
+.slide{
+	width: 25%;
+}
+.homepageLink{
+	color: black;
+	border: 3px solid #649D66; 
+}
+.homepageLink:hover{
+	background-color: #649D66;
+	color: white;
+	transition: all 0.3s;
+}
+.infoContainer{
+	width: 100%;
+}
+.infoContainer p{
+	display: inline-block;
+	width: 33%;
+}
+.infoContainer a{
+	justify-content: end;
+	text-align: end;
+	display: inline-block;
+	align-items: center;
+}
+
+.miniTag{
+	width: 100px;
+	padding: 5px;
+	border: 1px solid lightgray;
+	margin: 0 1px;
+	text-align: center;
+}
+.miniTag i{
+	font-size: 2rem;
+	margin: 10px 0;
+	height: 30px;
+}
+.miniTag h6{
+	display: inline-block;
+	margin: 6px 0;
+}
+.miniTag span{
+	font-size: 2rem;
+	height: 30px;
+}
+.miniTag p{
+	margin-bottom: 0;
+}
+
+.contentTitle{
+	font-family: "IBM Plex Sans KR", sans-serif;
+  	font-weight: 600;
+  	font-style: normal;
+}
+
+/*▼▼▼도시클릭▼▼▼*/
+.selected
+{
+   color: white;
+   background-color: #076e43;
+   font-weight: bold;
+}
+/*▲▲▲도시클릭▲▲▲*/
+
+.delButton {
+	
+	
+	background-color:#f3c300;
+	border-radius:6px;
+	border:1px solid #f3c300;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	
+}
+
+.delButton:active {
+	position:relative;
+	top:1px;
+}

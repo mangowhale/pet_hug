@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Bagel Fat One', system-ui;
+    font-family: 'Poppins', sans-serif; 
+}
+
+@font-face {
+    font-family: 'EF_jejudoldam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_jejudoldam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer{
+    background: #076e43;
+    padding: 50px 0;
+    color: #f3c300;
+}
+footer .container{
+    width: 80%;
+}
+.footer_box{
+    width: 50%;
+}
+.footer_title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #f3c300;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.footer_box .box_ul{
+    display: flex;
+    justify-content:flex-start;
+}
+.footer_box input{
+    background-color: #04091e;
+    border: 1px solid #333;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 40px;
+    width: 220px;
+    height: 40px;
+    color: #999;
+    overflow: visible;
+    margin: 0;
+}
+.footer_box button{
+    background-color: #f3c300;
+    color: #fff;
+    line-height: 34px;
+    padding: 4px 11px 0;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid transparent;
+
+    position: relative;
+    left: -5px;
+    top: 2px;
+}
+
+#footer_line{
+    background-color: #f3c300;
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*////////////////////////////////////////////////////////////////////*/
+
+.homefooter{
+   
+    padding: 50px 0;
+   color: #000000;
+}
+homefooter .container{
+    width: 80%;
+}
+.homefooter_box{
+    width: 50%;
+}
+.homefooter_title{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.homefooter_box .box_ul{
+    display: flex;
+    justify-content:flex-start;
+}
+.homefooter_box input{
+    background-color: #04091e;
+    border: 1px solid #333;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 40px;
+    width: 220px;
+    height: 40px;
+    color: #999;
+    overflow: visible;
+    margin: 0;
+}
+.homefooter_box button{
+    background-color: #f3c300;
+    color: #fff;
+    line-height: 34px;
+    padding: 4px 11px 0;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid transparent;
+
+    position: relative;
+    left: -5px;
+    top: 2px;
+}
+
+#homefooter_line{
+    background-color: #000000;
+    height: 1px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
